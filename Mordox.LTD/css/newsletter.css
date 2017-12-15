@@ -26,7 +26,7 @@ body {
 }
 
 .page-footer .footer-copyright{
-    color: #00de00;
+    color: #00de00 !important;
 }
 
 .footer_copyright, .footer_text, .footer_content, .footer_link{
