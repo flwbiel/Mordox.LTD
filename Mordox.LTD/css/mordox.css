@@ -1,0 +1,150 @@
+@font-face {
+    font-family : "razer";
+    src: url("fonts/razer.ttf");
+}
+
+
+*{
+    font-family: "razer";
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+    background-color: #000000;
+  }
+
+  .page-footer {
+    padding-top: 20px;
+    background-color: #000000;
+}
+
+.page-footer .footer-copyright{
+    color: #00de00;
+}
+
+.footer_copyright, .footer_text, .footer_content, .footer_link{
+    color: #942AEB;
+}
+
+#logo{
+    max-width: 221px;
+    margin-top: 9px;
+}
+
+.parallax-container {
+      height: 800px;
+      z-index: 2;
+    }
+.parallax_header_1, .parallax_text_1{
+    color: #49f9ff;
+}
+
+.parallax_header_2, .parallax_text_2{
+    color: #ee249e;
+}
+
+.link_parallax{
+    color: #8c8c8c;
+    transition: color .8s;
+}
+
+.link_parallax:hover{
+    color:#00de00;
+}
+
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #8c8c8c;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer;
+    margin-right: 5rem;
+    transition: color .8s;
+}
+
+nav ul a:hover{
+    color: #00de00;
+}
+
+.side-nav {
+    position: fixed;
+    width: 300px;
+    left: 0;
+    top: 0;
+    margin: 0;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    height: 100%;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    background-color: #000000;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+}
+
+.side-nav li > a {
+    text-align: center;
+    color: #8c8c8c;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+    margin: 5rem;
+    border: none;
+    transition: color .8s;
+}
+
+.side-nav li > a:hover{
+color: #00de00;
+}
+
+.contato {
+    background-color: #000000;
+    display: flex;
+}
+
+.contato >*{
+    height: 50px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.slogan{  
+    color: #00de00;
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 110%;
+    margin: 2.1rem 0 1.68rem 0;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+h2 {
+    font-size: 1.56rem;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+}
+
+
+
